@@ -1,4 +1,14 @@
 <?xml version="1.0"?>
-<electric_engine name="DJI E305">
-  <power unit="WATTS">  320 </power>
-</electric_engine>
+<!--
+  File:     DJI-E305xml
+  Author:   Matt Vacanti
+-->
+
+<!--3S Configuration-->
+<!-- ref https://www.dji.com/e305/spec -->
+<bldc_engine name="DJI-E305">
+ <velocityconstant> 800 </velocityconstant>
+ <torqueconstant> 6.1217 </torqueconstant>
+ <maxcurrent> 20 </maxcurrent>
+ <maxvolts> 12.6 </maxvolts>
+</bldc_engine>

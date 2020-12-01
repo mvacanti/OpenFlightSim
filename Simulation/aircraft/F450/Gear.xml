@@ -6,10 +6,10 @@
                 <y> 0.1016 </y>
                 <z> -0.1524 </z>
             </location>
-            <static_friction>  0.8 </static_friction>
-            <dynamic_friction> 0.5 </dynamic_friction>
-            <spring_coeff unit="N/M"> 500 </spring_coeff>
-            <damping_coeff unit="N/M/SEC"> 100 </damping_coeff>
+              <static_friction>  5 </static_friction>
+              <dynamic_friction> 5 </dynamic_friction>
+              <spring_coeff unit="N/M">75</spring_coeff>
+              <damping_coeff unit="N/M/SEC">20</damping_coeff>
         </contact>
 
 	<contact type="STRUCTURE" name="Front_Left">
@@ -18,10 +18,10 @@
                 <y> -0.1016 </y>
                 <z> -0.1524 </z>
             </location>
-            <static_friction>  0.8 </static_friction>
-            <dynamic_friction> 0.5 </dynamic_friction>
-            <spring_coeff unit="N/M"> 500 </spring_coeff>
-            <damping_coeff unit="N/M/SEC"> 100 </damping_coeff>
+              <static_friction>  5 </static_friction>
+              <dynamic_friction> 5 </dynamic_friction>
+              <spring_coeff unit="N/M">75</spring_coeff>
+              <damping_coeff unit="N/M/SEC">20</damping_coeff>
         </contact>
 
 	<contact type="STRUCTURE" name="Aft_Left">
@@ -30,10 +30,10 @@
                 <y> -0.1016 </y>
                 <z> -0.1524 </z>
             </location>
-            <static_friction>  0.8 </static_friction>
-            <dynamic_friction> 0.5 </dynamic_friction>
-            <spring_coeff unit="N/M"> 500 </spring_coeff>
-            <damping_coeff unit="N/M/SEC"> 100 </damping_coeff>
+              <static_friction>  5 </static_friction>
+              <dynamic_friction> 5 </dynamic_friction>
+              <spring_coeff unit="N/M">75</spring_coeff>
+              <damping_coeff unit="N/M/SEC">20</damping_coeff>
         </contact>
 
 	<contact type="STRUCTURE" name="Aft_Right">
@@ -42,9 +42,9 @@
                 <y> 0.1016 </y>
                 <z> -0.1524 </z>
             </location>
-            <static_friction>  0.8 </static_friction>
-            <dynamic_friction> 0.5 </dynamic_friction>
-            <spring_coeff unit="N/M"> 500 </spring_coeff>
-            <damping_coeff unit="N/M/SEC"> 100 </damping_coeff>
+              <static_friction>  5 </static_friction>
+              <dynamic_friction> 5 </dynamic_friction>
+              <spring_coeff unit="N/M">75</spring_coeff>
+              <damping_coeff unit="N/M/SEC">20</damping_coeff>
         </contact>
 </ground_reactions>
